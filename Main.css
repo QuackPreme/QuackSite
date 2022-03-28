@@ -1,0 +1,385 @@
+body{
+    background-color: yellow;
+}
+.yellow{
+    color: yellow;
+}
+.sm-wrapper{
+    margin-top: 100px;
+}
+
+
+
+.sidemenu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    color: rgb(255, 255, 50);
+    overflow-x: hidden;
+    transition: 0.5s
+}
+.about{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-image: url(/Images/values.png);
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    transition: 0.5s
+}
+.explanation{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-image: url(/Images/drones.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    transition: 0.5s
+}
+.research{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-image: url(/Images/research.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    transition: 0.5s
+}
+.sponsor{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-image: url(/Images/Armis.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: purple;
+    overflow-x: hidden;
+    transition: 0.5s
+}
+.robot{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-image: url(/Images/robot.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    transition: 0.5s
+}
+.sidemenu a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'inconsolata', monospace;
+    color: black;
+    display: block;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    transition: 300s;
+
+}
+
+.about a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'inconsolata', monospace;
+    color: black;
+    display: block;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    transition: 300s;
+
+}
+.sponsor a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'inconsolata', monospace;
+    color: black;
+    display: block;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    transition: 300s;
+
+}
+
+.explanation a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'inconsolata', monospace;
+    color: black;
+    display: block;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    transition: 300s;
+
+}
+
+.research a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'inconsolata', monospace;
+    color: black;
+    display: block;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    transition: 300s;
+
+}
+.robot a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'inconsolata', monospace;
+    color: black;
+    display: block;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    transition: 300s;
+
+}
+.sidemenu .close{
+    position: absolute;
+    top: 0;
+    font-size: 25px;
+    font-size: 95px;
+    margin-left: 50px;
+}
+.sm-wrapper a:after{
+    z-index: -1;
+    position:absolute;
+    left: 0%;
+    width: 0;
+    height: 50px;
+    background: #e85e4f
+    transition; width: 0.35s ease-in-out;
+
+}
+.sm-wrapper a:hover:after{
+    width: 10%;
+}
+
+.sm-wrapper a:hover{
+    padding-left: 64px
+    transition 0.35 ease-in-out;
+}
+
+#pg-content{
+    transition: margin-left 0.5s
+}
+#explanation-pg-content{
+    transition: margin-left 0.5s
+}
+#sponsor-pg-content{
+    transition: margin-left 0.5s
+}
+#research-pg-content{
+    transition: margin-left 0.5s
+}
+#robot-pg-content{
+    transition: margin-left 0.5s
+}
+#about-pg-content{
+    transition: margin-left 0.5s
+}
+.right{
+    text-align: right;
+}
+.sponsormenu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    color: rgb(255, 255, 50);
+    overflow-x: hidden;
+    transition: 0.5s
+}
+.sponsormenu .close{
+    position: absolute;
+    top: 0;
+    font-size: 25px;
+    font-size: 95px;
+    margin-left: 50px;
+}
+.sponsormenu a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'inconsolata', monospace;
+    color: black;
+    display: block;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    transition: 300s;
+
+}
+.explanationmenu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    color: rgb(255, 255, 50);
+    overflow-x: hidden;
+    transition: 0.5s
+}
+.explanationmenu .close{
+    position: absolute;
+    top: 0;
+    font-size: 25px;
+    font-size: 95px;
+    margin-left: 50px;
+}
+.explanationmenu a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'inconsolata', monospace;
+    color: black;
+    display: block;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    transition: 300s;
+
+}
+.aboutmenu{
+    height: 100%;
+    width: 450px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    color: rgb(255, 255, 50);
+    overflow-x: hidden;
+    transition: 0.5s
+}
+.aboutmenu .close{
+    position: absolute;
+    top: 0;
+    font-size: 25px;
+    font-size: 95px;
+    margin-left: 50px;
+}
+.aboutmenu a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'inconsolata', monospace;
+    color: black;
+    display: block;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    transition: 300s;
+
+}
+.robotmenu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    color: rgb(255, 255, 50);
+    overflow-x: hidden;
+    transition: 0.5s
+}
+.robotmenu .close{
+    position: absolute;
+    top: 0;
+    font-size: 25px;
+    font-size: 95px;
+    margin-left: 50px;
+}
+.robotmenu a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'inconsolata', monospace;
+    color: black;
+    display: block;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    transition: 300s;
+
+}
+.researchmenu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    color: rgb(255, 255, 50);
+    overflow-x: hidden;
+    transition: 0.5s
+}
+.researchmenu .close{
+    position: absolute;
+    top: 0;
+    font-size: 25px;
+    font-size: 95px;
+    margin-left: 50px;
+}
+.researchmenu a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'inconsolata', monospace;
+    color: black;
+    display: block;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    transition: 300s;
+
+}
+.right{
+    text-align: right;
+}
+.Home{
+    position: fixed;
+    top: 1.5;
+    right: 0.00;
+}
+#container div{
+    display:inline-block;
+}
+.left{
+    text-align: left;
+}

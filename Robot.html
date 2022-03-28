@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="Main.css">
+<script type="text/javascript" src="js.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Our robot</title>
+
+</head>
+<style>
+body {
+height: 100%;
+width: 100%;
+position: fixed;
+z-index: 0;
+top: 0;
+left: 0;
+background-image: url(/Images/robot.png);
+background-size: 100%, 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+overflow-x: hidden;
+transition: 0.5s
+}
+</style>
+<body>
+<a href="index.html">
+<div class="Home">
+<button style="font-size:24px; background-color: yellow;">Home <i class="fa fa-home" style="color: blue;"></i></button>
+</div>
+</a>
+<div id="mySidemenu" class="sidemenu">
+
+<a href="javascript:void(0)" class="close" onclick="closeSM()">&times;</a>
+<div class="sm-wrapper">
+<div id="yellow">
+<div id="myExplanation" class="explanation">
+<div class="explanation-wrapper">
+<a href="index.html">
+<div class="Home">
+<button style="font-size:24px; background-color: yellow;">Home <i class="fa fa-home" style="color: blue;"></i></button>
+</div>
+</a>
+<a href="Explanation.html">
+<div id="explanation-pg-content">
+<div style="font-size: 50px; cursor: pointer; color: black;" onclick="openSM()">&#9776;</div>
+</div>
+</a>
+<h1>OffSeason Explanation</h1>
+<div class="explanation-container">
+<!--explanation-->
+</div>
+</div>
+</div>
+<div id="explanation-content">
+<div style="cursor: pointer;" onclick="openEXPLANATION();"><h1>OffSeason Explanation</h1></div>
+</div>
+<div id="mySponsor" class="sponsor">
+<div class="sponsor-wrapper">
+<a href="Sponsor.html">
+<div id="sponsor-pg-content">
+<div style="font-size: 50px; cursor: pointer; color: black;" onclick="openSM()">&#9776;</div>
+</div>
+</a>
+<h1>Armis</h1>
+<div class="sponsor-container">
+So what is "Armis"?
+Armis is A company to help organizations discover and secure managed, unmanaged and more devices.
+With almost 500 employs all over the world, armis builds A better future for their customers and partners by 
+helping them to quickly implement their digital transformation strategies and safely adopt new connected devices
+</div>
+</div>
+</div>
+<div id="sponsor-content">
+<div style="cursor: pointer;" onclick="openSPONSOR();"><h1>Our sponsor(Armis)</h1></div>
+</div>
+<div id="myResearch" class="research">
+<div class="research-wrapper">
+<a href="Research.html">
+<div id="research-pg-content">
+<div style="font-size: 50px; cursor: pointer; color: black;" onclick="openSM()">&#9776;</div>
+</div>
+</a>
+<h1>Our research</h1>
+<div class="research-container">
+On our research we worked very hard and talked to many people that helped us.
+Guy Mechraz, Elazar Falik, Ron Porat, and Liat Gidron Heineman.
+Guy Mechraz is now developing the etheylene* sensor we would like to use in our project, Elazar Falik invited us to volkani institute to see how they take care of fruits and vegetables using quarantine*, Ron Porat taught us about quarantine and its pros and cons and accepted our idea that etheylene* is the gas that is right to search for and intoduced us to Guy Mechraz, wich we talked about earlier.
+Liat Gidron Heineman introduced us to the problem and invited us to the port she is working at where we heard from people that our solution will be very helpful and they are thirsty for it.
+For more information about our research:
+<!--button-->
+</div>
+</div>
+</div>
+<div id="research-content">
+<div style="cursor: pointer;" onclick="openRESEARCH();"><h1>Our research</h1></div>
+</div>
+<div id="myRobot" class="robot">
+<div class="robot-wrapper">
+<a href="Robot.html">
+<div id="robot-pg-content">
+<div style="font-size: 50px; cursor: pointer; color: black;" onclick="openSM()">&#9776;</div>
+</div>
+</a>
+<h1>Our robot</h1>
+<div class="robot-container">
+Our robot is as compact as possible.
+We built it so he would be able to use a motor to make the "arms" we built move, the robot has a facing up motor to power the "arms", two more motors to make the wheels drive and a gyro sensor, wich can tell us the direction the robot is facing and a color sensor to follow the black lines on the game board.
+In the front of the robot there is a place to easily insert the arms and make them stable.
+Our robot's name is Quack Dastley.
+</div>
+</div>
+</div>
+<div id="robot-content">
+<div style="cursor: pointer;" onclick="openROBOT();"><h1>Our robot</h1></div>
+</div>
+<div id="myAbout" class="about">
+<div class="about-wrapper">
+<a href="About.html">
+<div id="about-pg-content">
+<div style="font-size: 50px; cursor: pointer; color: black;" onclick="openSM()">&#9776;</div>
+</div>
+</a>
+<h1>About Us</h1>
+<div class="about-container">
+QuackPreme is a team of eleven students.
+<br>
+We strive to develop and enhance our knowledge in the field of robotics. 
+<br>
+Our team was founded three  years ago and we have thus far participated in three competitions. 
+<br>
+Our group meets every day of the week for several hours.
+</br>
+Anyone of us:
+</div>
+<br>
+<a href="yuvk'e.html">
+<div id="container">
+<button style="font-size: 42; color: yellow; background-color: brown; border-radius: 12px;">
+Yuval burstein</button>
+</div>
+</a>
+</div>
+</div>
+<div id="about-content">
+<div style="cursor: pointer;" onclick="openABOUT();"><h1>About Us</h1></div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+<div id="pg-content">
+<div style="font-size: 50px; cursor: pointer; color: black;" onclick="openSM()">&#9776;</div>
+</div>
+<h1>Our robot</h1>
+<div class="robot-container">
+Our robot is as compact as possible.
+We built it so he would be able to use a motor to make the "arms" we built move, the robot has a facing up motor to power the "arms", two more motors to make the wheels drive and a gyro sensor, wich can tell us the direction the robot is facing and a color sensor to follow the black lines on the game board.
+In the front of the robot there is a place to easily insert the arms and make them stable.
+Our robot's name is Quack Dastley.
+</div>
+
+</body>
